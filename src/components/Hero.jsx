@@ -1,9 +1,9 @@
 
 
 const stats = [
-    { value: "1B+", label: "Citizens served" },
-    { value: "1.1Bn+", label: "Public services delivered" },
-    { value: "50+", label: "Government partners" },
+    { value: "1B+", label: "Citizens " },
+    { value: "1.1Bn+", label: "Public delivered" },
+    { value: "50+", label: "Digital partners" },
     { value: "20 yrs", label: "Of digital transformation" },
 ];
 
@@ -17,7 +17,7 @@ function Hero() {
             <div className="hero-container">
 
                 <div className="hero-content">
-                    <p className="hero-eyebrow">20 years of digital transformation</p>
+                    <p className="hero-eyebrow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, atque.</p>
 
                     <h1 id="hero-heading" className="hero-heading">
                         Public service delivery.{" "}
@@ -52,7 +52,7 @@ function Hero() {
                 <div className="hero-visual">
                     <div className="hero-img-wrap">
                         <img
-                            src="https://placehold.co/580x440/e8f4f8/1f2937?text=Citizens+%26+Government"
+                            src="https://placehold.co/580x440/e8f4f8/1f2937?text=E-Commerce+%26+Website"
                             alt="Citizens and government workers collaborating on digital public service delivery"
                             className="hero-img"
                             width={580}
@@ -60,8 +60,8 @@ function Hero() {
                             loading="eager"
                         />
                         <div className="hero-badge" aria-label="Over 1 billion transactions processed">
-                            <span className="badge-num">1,000,000,100+</span>
-                            <span className="badge-txt">citizen transactions</span>
+                            <span className="badge-num">100+</span>
+                            <span className="badge-txt">Lorem, ipsum.</span>
                         </div>
                     </div>
                 </div>

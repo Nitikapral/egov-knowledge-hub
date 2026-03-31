@@ -33,7 +33,7 @@ function Navbar() {
 
         <a href="#" className="nav-brand" aria-label="eGov Foundation — Home">
           <span className="brand-e">e</span>
-          <span className="brand-gov">GOV</span>
+          <span className="brand-gov">Com</span>
           <span className="brand-foundation">Foundation</span>
         </a>
 

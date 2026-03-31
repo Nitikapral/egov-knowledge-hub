@@ -632,10 +632,8 @@ a {
   cursor: pointer;
   transition: var(--transition);
 }
-
-.pill:hover {
-  border-color: var(--primary);
-  color: var(--primary);
+.text-light{
+  color: var(--card-bg);
 }
 
 .pill-active {

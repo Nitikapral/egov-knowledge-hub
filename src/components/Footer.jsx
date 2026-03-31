@@ -2,9 +2,8 @@
 import { useState } from "react";
 
 const footerLinks = {
-  "Useful Links": ["Home", "Our Model", "Our Impact", "Products", "Contact Us"],
-  "Areas of Work": ["Public Health", "Public Finance", "Local Governance", "Water & Sanitation"],
-};
+    "Shop": ["All Products", "New Arrivals", "Best Sellers", "Deals", "Gift Cards"],
+  "Customer Service": ["Contact Us", "Track Order", "Returns", "Shipping Info", "FAQs"],};
 
 const socials = [
   { label: "Facebook", icon: "f", href: "#" },
@@ -36,11 +35,10 @@ function Footer() {
           <div className="footer-brand-col">
             <a href="#" className="footer-logo" aria-label="eGov Foundation — Home">
               <span className="brand-e">e</span>
-              <span className="brand-gov">GOV</span>
+              <span className="brand-gov text-light">Com</span>
             </a>
             <p className="footer-tagline">
-              Catalysing digital transformation to improve public service delivery locally.
-            </p>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit.            </p>
             <div className="footer-socials" role="list" aria-label="Social media">
               {socials.map((s) => (
                 <a
@@ -48,7 +46,7 @@ function Footer() {
                   href={s.href}
                   className="social-btn"
                   role="listitem"
-                  aria-label={`Follow eGov on ${s.label}`}
+                  aria-label={`Follow eCom on ${s.label}`}
                   rel="noopener noreferrer"
                 >
                   <span aria-hidden="true">{s.icon}</span>

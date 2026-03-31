@@ -70,11 +70,10 @@ function ProductSection() {
       <div className="ps-header">
         <p className="section-eyebrow">Knowledge hub</p>
         <h2 id="resources-heading" className="section-heading">
-          Latest at <strong>eGov</strong>
+          Latest at <strong>eCom</strong>
         </h2>
         <p className="section-sub">
-          Case studies, reports, whitepapers and newsletters from two decades
-          of working at the intersection of technology and governance.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam neque quam corrupti sit exercitationem totam autem, repellat quasi perspiciatis cumque.
         </p>
       </div>
 
