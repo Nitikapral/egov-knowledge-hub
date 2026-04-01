@@ -51,7 +51,7 @@ function ProductCard({ product }) {
         <p className="card-desc">{product.description}</p>
 
         <div className="card-footer">
-          <span className="card-price">{product.price}</span>
+          <span className="card-price">₹{product.price}</span>
           <a
             href="#"
             className="card-link"
