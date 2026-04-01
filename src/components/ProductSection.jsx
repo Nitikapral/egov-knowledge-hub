@@ -22,7 +22,7 @@ function ProductSection() {
           image: item.thumbnail,
           description: item.description,
           category: item.category,
-          price: "Free",
+          price: item.price,
           date: "2025-01-01",
           readTime: "5 min read",
         }));
